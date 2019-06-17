@@ -17,4 +17,4 @@ calc.valid.data.df <- function( CTD.data ) {
   Valid.data$Max <- suppressWarnings( apply( CTD.data, 2, max, na.rm = TRUE ) )
   #
   return( Valid.data ) 
-  
+}
